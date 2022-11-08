@@ -25,9 +25,9 @@ function binarySearch($arr, $left, $right, $value)
 $arr = array(2, 3, 4, 10, 40);
 $length = count($arr);
 $value = 10;
-$$result = binarySearch($arr, 0, $length - 1, $value);
+$result = binarySearch($arr, 0, $length - 1, $value);
 if(($$result == -1))
     echo "Element is not present in array";
 else
-    echo "Element is present at index ".$result;
+    echo "Element is present at index ",$result;
 ?>
