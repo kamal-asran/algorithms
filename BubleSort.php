@@ -1,6 +1,5 @@
 <?php
 //Buble Sort Alogrithm Implementation
-
 function buble_sort(&$array,$length)
 {
     for($i=0;$i<$length-1;$i++)
@@ -15,12 +14,10 @@ function buble_sort(&$array,$length)
                 $array[$j] = $array[$j+1];
                 $array[$j+1] = $tmp;
             }
-
         }
     }
 
 }
-
 $array=[5,4,6,1,2,0];
 $length=count($array);
 buble_sort($array, $length);
